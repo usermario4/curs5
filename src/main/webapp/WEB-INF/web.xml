@@ -1,0 +1,26 @@
+<web-app>
+	<servlet>
+		<servlet-name>laptop-servlet</servlet-name>
+		<servlet-class>com.afis.Laptop</servlet-class>
+	</servlet>
+	
+	
+	<servlet-mapping>
+		<url-pattern>/laptop</url-pattern>
+		<servlet-name>laptop-servlet</servlet-name>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>convertor-servlet</servlet-name>
+	<servlet-class>com.afis.Convertor</servlet-class>
+	
+	</servlet>
+	
+	<servlet-mapping>
+	<url-pattern>/convertor</url-pattern>
+	<servlet-name>convertor-servlet</servlet-name>
+	
+	</servlet-mapping>
+	
+
+</web-app>
